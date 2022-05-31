@@ -3,7 +3,7 @@
 # Load common environment
 . ./sqlib.sh
 
-PK="HeroVenture_SonarSample"
+PK="Maven_SonarSample"
 
 echo "Deleting project"
 curl -X POST -u $SONAR_TOKEN: $SONAR_HOST_URL/api/projects/delete?project=$PK
