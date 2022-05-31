@@ -8,7 +8,7 @@ public class Bar {
     public void doTheThingBetter() { }
   
     /**
-     * @deprecated As of release 1.14 due to poor performances.
+     * @deprecated As of release 1.14 due to poor performances...
      */
     @Deprecated(forRemoval=false)
     public void doTheOtherThing() { }
