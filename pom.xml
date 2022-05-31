@@ -6,7 +6,7 @@
   <groupId>io.sonarcloud.githubactions.sample</groupId>
   <artifactId>maven-sample</artifactId>
   <version>0.1-SNAPSHOT</version>
-  <name>SonarCloud GitHub Actions Samples - Maven</name>
+  <name>Maven_SonarSample</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,8 +18,8 @@
     The two following properties are displayed on your project
     at https://sonarcloud.io
      -->
-    <sonar.organization>heroventure</sonar.organization>
-    <sonar.projectKey>HeroVenture_SonarSample</sonar.projectKey>
+    <sonar.organization>super-extreme-engineering</sonar.organization>
+    <sonar.projectKey>Maven_SonarSample</sonar.projectKey>
   </properties>
 
   <dependencies>
