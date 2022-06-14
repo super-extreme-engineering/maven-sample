@@ -12,16 +12,16 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.organization>super-extreme-engineering</sonar.organization>
+    <sonar.organization>super-extreme-engineering-1</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.projectKey>Maven_SonarSample</sonar.projectKey>
-    <sonar.projectName>Maven_SonarSample</sonar.projectName>
+    <sonar.projectKey>super-extreme-engineering_maven-sample</sonar.projectKey>
+    <sonar.projectName>maven-sample</sonar.projectName>
   </properties>
   <dependencies>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.9.10.7</version>
+      <version>2.13.3</version>
     </dependency>
     <dependency>
       <groupId>commons-beanutils</groupId>
